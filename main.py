@@ -124,10 +124,10 @@ def login(user, password):
         "User-Agent": "Mozilla/5.0 (iPhone; CPU iPhone OS 14_7_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.2"
     }
     data1 = {
-        "client_id": "HuaMi",
-        "password": f"{password}",
+        "client_id": "17608451959",
+        "password": f"{chen942900152}",
         "redirect_uri": "https://s3-us-west-2.amazonaws.com/hm-registration/successsignin.html",
-        "token": "access"
+        "token": "11AULBSSI0cAJY3UZ4dI0y_8wHWJGk8QYEMhIMztRlIys2uY7AhJSjmd1ziUTIwmlr36UVJ5Z5G5ixEgKj"
     }
     r1 = requests.post(url1, data=data1, headers=headers, allow_redirects=False)
     location = r1.headers["Location"]
